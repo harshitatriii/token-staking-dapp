@@ -1,0 +1,17 @@
+[package]
+name = "tokenStaking"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+MyModule = "0x242a376737fe85a65efb21d079696dcc38f88c27419c7862d1859e6c71a22168"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
